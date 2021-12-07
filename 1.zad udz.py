@@ -1,4 +1,4 @@
-#unesi prirodan broj i ispisi njegov broj zanemnki, zbroj znamenki i umnozak znamenki
+#unesi prirodan broj i ispisi njegov broj znnemnki, zbroj znamenki i umnozak znamenki
 n=int(input('unesi broj n'))
 provjera=n
 znamenka=0
