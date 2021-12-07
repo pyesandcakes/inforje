@@ -1,0 +1,11 @@
+n=int(input(""))
+vrijednost="X"
+while(n>0):
+    zn=n%10
+    n=n//10
+    if(zn%2!=0):
+        vrijednost=zn
+    else:
+        while(zn%2==0):
+            break
+print(vrijednost)
