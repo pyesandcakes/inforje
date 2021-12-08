@@ -11,7 +11,7 @@ while(n>0):
    else:
       druginiz=str(zn)+druginiz
    br+=1
- if(br%2==0):
+ if(br%2!=0):
    print(prviniz)
 else:
    print(druginiz)
