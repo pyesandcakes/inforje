@@ -1,8 +1,18 @@
 n=int(input(""))
-zn=0
 br=0
-a=n
+prviniz=""
+druginiz=""
 
 while(n>0):
-    n=n//10
-    br+=1
+   zn=n%10 
+   n=n//10
+   if (br%2==0):
+      prviniz=str(zn)+prviniz
+   else:
+      druginiz=str(zn)+druginiz
+   br+=1
+ if(br%2==0):
+   print(prviniz)
+else:
+   print(druginiz)
+ 
