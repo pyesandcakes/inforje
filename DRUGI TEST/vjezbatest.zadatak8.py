@@ -3,7 +3,7 @@ n=int(input("Koliko znamenaka želiš?"))
 l=[]
 for i in range(n):
     l.append(int(input("Upiši broj:")))
-privremeno=[]
+p=[]
 for i in l:
     a=i
     lol=[]
@@ -15,10 +15,10 @@ for i in l:
         for j in lol:
             if(i==j):
                 br+=1
-    privremeno.append(br)
+    p.append(br)
 for i in range(n):
     print(l)
-    t=privremeno.index(min(privremeno))
+    t=p.index(min(p))
     l.pop(t)
-    privremeno.pop(t)
+    p.pop(t)
 print(l)
