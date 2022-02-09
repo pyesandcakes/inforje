@@ -11,8 +11,8 @@ for i in range(n-1):
          for k in range(len(l)):
              if(l[k]%10!=j and (l[k+1]%10!=j)):
                 l.insert((k+1),x)
-                break
                 print(l)
+                break
          if(k==len(l)-1): 
             if(l[k]%10!=j):
                 l.append(x)
