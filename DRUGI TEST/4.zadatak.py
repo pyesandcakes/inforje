@@ -1,3 +1,4 @@
+#Upiši n prirodnih brojeva i spremi ih u listu. Provodite sljedeću proceduru dok ne ispraznite cijelu listu: odredite broj x koji može najviše pute podjeliti brojeve iz liste (imajte na umu da x može više puta djeliti isti broj) te izbacite iz liste broj koji se najviše puta može podjeliti s x. Isprintajte listu nakon svakog izbacivanja.
 n=int(input('unesi broj brojeva'))
 x=int(input('Odredi broj x'))
 l=[]
