@@ -19,7 +19,7 @@ print(l)
 print(u)
 for i in range(n):
     target=u.index(min(u))
-    l.pop(target)
+    l.append(l.pop(target))
     u.pop(target)
     print(l)
     print(u)
