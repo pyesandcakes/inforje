@@ -1,3 +1,4 @@
+#Upiši n prirodnih brojeva i spremi ih u listu l. Promjenite poredak elemenata u listi l tako da ih sortirate po njihovoj prosjećnoj vrijednosti znamenki.
 n=int(input('unesi broj brojeva'))
 l=[]
 u=[]
