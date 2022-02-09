@@ -1,6 +1,7 @@
 ##Upiši prirodan broj n, te n prirodnih brojeva koje spremamo u listu l na način da osigurate da niti jedna dva susjedna broja nemaju iste znamenke jedinica. Ako to nije moguće printajte "Nemoguće ubacivanje broja " gdje je x koji nije moguće ubaciti. Nakon svakog ubacivanja printajte listu.
 n=int(input('unesi broj brojeva'))
 l=[]
+nemoguce=False
 l.append(int(input('Unesi broj:')))
 for i in range(n-1):
     x=int(input('Unesi broj:'))
@@ -19,5 +20,9 @@ for i in range(n-1):
                 print(l)
             else:
                 print('nemoguce')
+                nemoguce=True
                 break
-print(l)
+if nemoguce==False:
+    print(l)
+else:
+    quit
