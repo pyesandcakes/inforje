@@ -12,7 +12,7 @@ for i in l:
     r.append(abs(i-pro))
 rj=[]
 for i in range(n):
-    t=r.index(min(r))
+    t=r.index(max(r))
     rj.append(l.pop(t))
     r.pop(t)
 print(rj)
