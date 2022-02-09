@@ -1,7 +1,7 @@
 #Upiši n prirodnih brojeva i spremi ih u listu. Promjeni poredak elemenata u listi tako da ih sortirate po broju znamenaka djeljivih s 3.
 n=int(input("Koliko znamenka želiš?"))
 l=[]
-privremeno=[]
+p=[]
 br=0
 for i in range(n):
     l.append(int(input("Upiši broj:")))
@@ -12,11 +12,11 @@ for i in l:
         if(a%3==0):
             br+=1
         i=i//10
-    privremeno.append(br)
+    p.append(br)
 rj=[]
 for i in range(n):
-    t=privremeno.index(min(privremeno))
+    t=p.index(min(p))
     rj.append(l.pop(t))
-    privremeno.pop(t)
+    p.pop(t)
 rj.reverse()
 print(rj)
