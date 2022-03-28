@@ -1,7 +1,4 @@
 #Upišite string s gdje je s gramatička rečenica. Promjenite poredak riječi tako da su sortirane po tome koliko slova 'a' sadrže.
-from audioop import reverse
-
-
 s=input('unesi broj')
 s=s.split(' ')
 b=0
