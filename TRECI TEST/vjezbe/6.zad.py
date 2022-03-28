@@ -2,4 +2,4 @@
 s=input('unesi recenicu bez gramatickih znakova')
 l=s.split()
 z=sorted(l, key=len)
-print(' '.join(z))           
+print(' '.join(z))
