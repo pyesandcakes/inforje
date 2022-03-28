@@ -1,0 +1,1 @@
+#Upišite n prirodnih brojeva i spremite ih u riječnik (ako više brojeva ima isti ključ spremite ih kao listu) sa ključem jednakim broju njihovih parnih znamenaka. Koliko brojeva ima 3 parne znamenke?
