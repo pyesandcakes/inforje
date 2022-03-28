@@ -11,11 +11,11 @@ for i in range (n):
         k=k//10
         if(min>znamenka):
             min=znamenka
-    if(r.has_key(min)):
+    if((min)in r):
         l=[]
         l.append(broj)
         l.append(r[min])
-        r.update({min:broj})
+        r.update({min:l})
     else:
         r.update({min:broj})
     print(r)
