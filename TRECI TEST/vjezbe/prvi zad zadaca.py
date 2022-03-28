@@ -1,5 +1,5 @@
 #Upišite string s gdje je s gramatička rečenica. Promjenite poredak riječi tako da su sortirane po tome koliko slova 'a' sadrže.
-s=input('unesi broj')
+s=input('unesi recenicu')
 s=s.split(' ')
 b=0
 r={}
