@@ -1,6 +1,7 @@
 #Koristeći riječnik sortirajte n prirodnih brojeva po njihovoj znamenci jedinica.
 n=int(input('Upisi'))
 r={}
+sort={}
 for i in range(n):
     x=int(input(''))
     k=x
