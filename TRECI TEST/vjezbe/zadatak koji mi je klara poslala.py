@@ -1,6 +1,3 @@
 l=input('unesi')
-p=''
-for i in l:
-    malo=i.lower()
-    p+=malo
+p=l.lower()
 print(p)
