@@ -4,6 +4,7 @@
 
 n=int(input())
 r={}
+br3=0
 for i in range(n):
     x=int(input())
     y=x
@@ -20,4 +21,6 @@ for i in range(n):
         r.update({br:l})
     else:
         r.update({br:x})
-print(r[3])
+    if(br==3):
+        br3+=1
+print(br3)
