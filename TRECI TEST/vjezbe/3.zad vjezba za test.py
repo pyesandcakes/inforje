@@ -9,19 +9,19 @@ for i in range(n):
     revs_number=0
     while(k>0):
         ostatak=k%10  
-        revs_number = (revs_number * 10) + ostatak  
-        k = k // 10  
-        prvaznamenka=0
+        k=k//10  
+        if(0<k>10):
+            z=k
     for i in range(1):
-        prvaznamenka=revs_number%10
-        if(prvaznamenka==3):
+        z=revs_number%10
+        if(z==3):
             b.append(broj)
-    if(prvaznamenka in r):
+    if(z in r):
         l=[]
         l.append(broj)
-        l.append(r[prvaznamenka])
-        r.update({prvaznamenka:l})
+        l.append(r[z])
+        r.update({z:l})
     else:
-        r.update({prvaznamenka:broj})
+        r.update({z:broj})
     print(r)
 print(b)
