@@ -2,6 +2,8 @@
 #Dakle, poruka 2A3b je zapravo poruka AAbbb. 
 #Napišite program koji dekompresira poruku i ispisuje ju.
 n=input()
-a=int(n[0])
-b=int(n[-2])
-print(a *n[1],b *n[-1])
+r=''
+for i in range(len(n)):
+    if n[i].isdigit():
+        r=r+n[i]*n[i+1]
+print(r)
