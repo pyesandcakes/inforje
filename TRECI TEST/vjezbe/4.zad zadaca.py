@@ -5,5 +5,5 @@ n=input()
 r=''
 for i in range(len(n)):
     if n[i].isdigit():
-        r=r+n[i]*n[i+1]
+        r=r+int(n[i])*n[i+1]
 print(r)
